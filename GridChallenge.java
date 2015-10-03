@@ -80,3 +80,38 @@ public class GridChallenge {
     }
 
 }
+
+
+/*
+*
+*
+Sample Input 1:
+1
+5
+ebacd
+fghij
+olmkn
+trpqs
+xywuv
+*
+Output:
+Yes
+*
+*
+*
+Sample Input 2:
+2
+2
+kc
+iu
+3
+uxf
+vof
+hmp
+*
+Output:
+YES
+NO
+
+
+*/
