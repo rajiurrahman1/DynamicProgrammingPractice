@@ -19,10 +19,7 @@ public class GridChallenge {
                     char[][] matrix = new char[N][N];
                     readData(in, matrix, N);
 
-    //                sortData(matrix);
                     insertionSort(matrix);
-    //                dumpMatrix(matrix);
-
                     String res = takeGridChallenge(matrix);
                     System.out.println(res);
                 }
@@ -59,18 +56,6 @@ public class GridChallenge {
         }
     }
     
-    private static void sortData(char[][] matrix) {
-        for(int i=0; i<matrix.length-1; i++){
-            for(int j=i; j<matrix[0].length-1; j++){
-                if( Character.toString(matrix[i][j]).compareTo(Character.toString(matrix[i][j+1])) > 0 ){ //if true, exchange
-                    char c1 = matrix[i][j];
-                    matrix[i][j] = matrix[i][j+1];
-                    matrix[i][j+1] = c1;
-                }
-            }
-        }
-    }
-
     private static void readData(Scanner in, char[][]matrix, int N) {
         for(int i=0; i<N; i++){
             String s1 = in.nextLine().trim().toLowerCase();
