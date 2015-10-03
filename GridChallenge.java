@@ -3,7 +3,8 @@ package DynamicProgrammingPractice;
 import java.util.Scanner;
 
 /**
- *
+ * Problem description: https://www.hackerrank.com/challenges/grid-challenge
+ * 
  * @author Rajiur
  */
 public class GridChallenge {
